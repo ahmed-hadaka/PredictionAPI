@@ -45,7 +45,6 @@ build/
 config/secrets.yml
 
 #ML model & data files
-*.pkl
 *.h5
 *.pt
 *.onnx
@@ -111,7 +110,7 @@ train_model.ipynb
 PredictionAPI.iml
 
 # Model files (large files - exclude from git)
-*.pkl
+
 *.joblib
 *.h5
 *.pth
